@@ -10,6 +10,11 @@
 
 ofxSimpleSurface::ofxSimpleSurface()
 {
+	
+	numU = numV = 0;
+	stepU = stepV = 0;
+	
+	int numUControlVertices, numVControlVertices;	
 	cv.resize(1);
 	cv[0].resize(1);
 	
